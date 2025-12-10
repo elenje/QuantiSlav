@@ -226,5 +226,4 @@ MIT License
 
 Copyright (c) [2025] [Elena Renje, Anna Jouravel, Achim Rabus, Martin Meindl, Piroska Lendvai]
 
-**Last Updated:** [Date]  
-**Repository:** [GitHub/GitLab URL]
+**Repository:** [GitHub/https://github.com/elenje/QuantiSlav/tree/main/DHd2026/htr_preprocessing]
