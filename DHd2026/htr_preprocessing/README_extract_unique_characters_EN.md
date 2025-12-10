@@ -8,8 +8,8 @@ Systematic identification and extraction of all unique characters from a corpus 
 
 ## Metadata
 
-**Author:** [Name, Email]  
-**Date:** [Creation Date]  
+**Author:** Elena Renje, elena.renje[at]slavistik.uni-freiburg.de
+**Date:** 10.12.2025 
 **Version:** 1.0  
 **License:** MIT License  
 **Language:** R (Version ≥ 3.6 recommended)
@@ -158,20 +158,6 @@ source("extract_unique_characters.R")
   - Punctuation marks
   - Special characters
 
-### 🐛 Known Bug
-
-**Line 44:** Incorrect variable name
-```R
-# Current (incorrect):
-cat("Unique characters successfully written to", output_excel_file, "\n")
-
-# Should be:
-cat("Unique characters successfully written to", output_file, "\n")
-```
-
-**Workaround:** The script still works; only the output message shows an error. You can correct the line accordingly.
-
----
 
 ## Workflow Integration
 
@@ -228,44 +214,17 @@ readLines("file.txt", encoding = "ISO-8859-1") %>%
 ## Contact
 
 For questions, bug reports, or suggestions for improvement:  
-**Email:** [Your Email Address]
+**Email:** elena.renje[at]slavistik.uni-freiburg.de
 
 ---
 
-## Citation
 
-```
-[Author(s)] (Year). extract_unique_characters.R - Unicode Character Extraction 
-for HTR Workflows. [Repository URL]. Version 1.0.
-```
-
----
 
 ## License
 
 MIT License
 
-Copyright (c) [Year] [Author(s)]
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-
----
+Copyright (c) [2025] [Elena Renje, Anna Jouravel, Achim Rabus, Martin Meindl, Piroska Lendvai]
 
 **Last Updated:** [Date]  
 **Repository:** [GitHub/GitLab URL]
