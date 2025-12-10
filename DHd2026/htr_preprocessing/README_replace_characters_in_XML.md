@@ -8,9 +8,9 @@ Automatisierte Ersetzung nicht-standardisierter oder benutzerdefinierter Zeichen
 
 ## Metadaten
 
-**Autor:** [Name, Email]  
-**Datum:** [Erstellungsdatum]  
-**Version:** 1.0  
+**Autor:** Elena Renje, elena.renje[at]slavistik.uni-freiburg.de
+**Datum:** 10.12.2025
+**Version:** 1.0.1
 **Lizenz:** MIT License  
 **Sprache:** R (Version ≥ 3.6 empfohlen)
 
@@ -381,45 +381,12 @@ Mögliche Verbesserungen des Skripts:
 ## Kontakt
 
 Bei Fragen, Fehlermeldungen oder Verbesserungsvorschlägen:  
-**Email:** [Ihre Email-Adresse]  
-**Issue Tracker:** [GitHub Issues URL]
-
----
-
-## Zitation
-
-```
-[Autor*innen] (Jahr). replace_characters_in_XML.R - Zeichennormalisierung 
-für PAGE-XML in HTR-Workflows. [Repository-URL]. Version 1.0.
-```
-
----
+**Email:** elena.renje[at]slavistik.uni-freiburg.de 
 
 ## Lizenz
 
 MIT License
 
-Copyright (c) [Jahr] [Autor*innen]
+Copyright (c) [2025] [Elena Renje, Anna Jouravel, Achim Rabus, Martin Meindl, Piroska Lendvai]
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-
----
-
-**Letzte Aktualisierung:** [Datum]  
-**Repository:** [GitHub/GitLab-URL]
+**Repository:** [GitHub/https://github.com/elenje/QuantiSlav/tree/main/DHd2026/htr_preprocessing]
