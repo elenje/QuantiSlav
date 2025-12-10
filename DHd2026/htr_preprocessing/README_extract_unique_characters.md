@@ -8,9 +8,9 @@ Systematische Identifikation und Extraktion aller eindeutigen Zeichen aus einem 
 
 ## Metadaten
 
-**Autor:** [Name, Email]  
-**Datum:** [Erstellungsdatum]  
-**Version:** 1.0  
+**Autor:** Elena Renje, elena.renje[at]slavistik.uni-freiburg.de
+**Datum:** 10.12.2025  
+**Version:** 1.0.1 
 **Lizenz:** MIT License  
 **Sprache:** R (Version ≥ 3.6 empfohlen)
 
@@ -158,20 +158,6 @@ source("extract_unique_characters.R")
   - Satzzeichen
   - Sonderzeichen
 
-### 🐛 Bekannter Bug
-
-**Zeile 44:** Falsche Variablenbezeichnung
-```R
-# Aktuell (fehlerhaft):
-cat("Unique characters successfully written to", output_excel_file, "\n")
-
-# Sollte sein:
-cat("Unique characters successfully written to", output_file, "\n")
-```
-
-**Workaround:** Das Skript funktioniert trotzdem, nur die Ausgabemeldung zeigt einen Fehler. Sie können die Zeile entsprechend korrigieren.
-
----
 
 ## Workflow-Integration
 
@@ -228,24 +214,16 @@ readLines("file.txt", encoding = "ISO-8859-1") %>%
 ## Kontakt
 
 Bei Fragen, Fehlermeldungen oder Verbesserungsvorschlägen:  
-**Email:** [Ihre Email-Adresse]
+**Email:** elena.renje[at]slavistik.uni-freiburg.de
 
 ---
 
-## Zitation
-
-```
-[Autor*innen] (Jahr). extract_unique_characters.R - Unicode-Zeichenextraktion 
-für HTR-Workflows. [Repository-URL]. Version 1.0.
-```
-
----
 
 ## Lizenz
 
 MIT License
 
-Copyright (c) [Jahr] [Autor*innen]
+Copyright (c) [2025] [Elena Renje, Anna Jouravel, Achim Rabus, Martin Meindl, Piroska Lendvai]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -267,5 +245,5 @@ SOFTWARE.
 
 ---
 
-**Letzte Aktualisierung:** [Datum]  
-**Repository:** [GitHub/GitLab-URL]
+**Letzte Aktualisierung:** [10.12.2025]  
+**Repository:** [GitHub/https://github.com/elenje/QuantiSlav/tree/main/DHd2026/htr_preprocessing]
