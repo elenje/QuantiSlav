@@ -10,7 +10,7 @@ Systematic identification and extraction of all unique characters from a corpus 
 
 **Author:** Elena Renje, elena.renje[at]slavistik.uni-freiburg.de
 **Date:** 10.12.2025 
-**Version:** 1.0  
+**Version:** 1.0.1
 **License:** MIT License  
 **Language:** R (Version ≥ 3.6 recommended)
 
